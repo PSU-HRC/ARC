@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationV2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IsMaximized>true</IsMaximized>
+  <Width>1552</Width>
+  <Height>832</Height>
+  <UCControlWidth>1536</UCControlWidth>
+  <UCControlHeight>677</UCControlHeight>
+  <EZBuilderVersionMajor>2022</EZBuilderVersionMajor>
+  <EZBuilderVersionMinor>2</EZBuilderVersionMinor>
+  <EZBuilderVersionBuild>22</EZBuilderVersionBuild>
+  <EZRobot>
+    <AppIDOwnerHASH />
+    <DefaultControlMobile>Desktop</DefaultControlMobile>
+    <Description />
+    <CategoryIDs />
+    <IsPublic>false</IsPublic>
+    <Filename />
+    <YouTubeURL />
+    <CameraPosition>
+      <X>0</X>
+      <Y>0</Y>
+      <Z>1400</Z>
+    </CameraPosition>
+    <EZRobotBits />
+    <Snapshot />
+    <DesignWallpaper />
+    <TitleImage />
+    <PortSummaryList />
+    <PromptServoProfile>false</PromptServoProfile>
+    <AutoFocusMobileInterface>false</AutoFocusMobileInterface>
+    <MaxServoPositions>180</MaxServoPositions>
+    <WorkspaceTitles>
+      <string />
+    </WorkspaceTitles>
+  </EZRobot>
+  <ConfigurationFormList>
+    <ConfigurationFormV2>
+      <FormType>Connection</FormType>
+      <Title>Connection</Title>
+      <TopLocation>5</TopLocation>
+      <LeftLocation>5</LeftLocation>
+      <Width>284</Width>
+      <Height>169</Height>
+      <WindowState>Normal</WindowState>
+      <GUID>b101a66e-d673-4c47-8487-071262f93a12</GUID>
+      <Desktop>0</Desktop>
+      <Connection>
+        <ScriptConnectionEstablished>
+          <ScriptDefinition>
+            <Title />
+            <Description />
+            <EZScript />
+            <BlocklyXML />
+            <Javascript />
+            <Python />
+          </ScriptDefinition>
+          <ScriptDefinition>
+            <Title />
+            <Description />
+            <EZScript />
+            <BlocklyXML />
+            <Javascript />
+            <Python />
+          </ScriptDefinition>
+          <ScriptDefinition>
+            <Title />
+            <Description />
+            <EZScript />
+            <BlocklyXML />
+            <Javascript />
+            <Python />
+          </ScriptDefinition>
+          <ScriptDefinition>
+            <Title />
+            <Description />
+            <EZScript />
+            <BlocklyXML />
+            <Javascript />
+            <Python />
+          </ScriptDefinition>
+          <ScriptDefinition>
+            <Title />
+            <Description />
+            <EZScript />
+            <BlocklyXML />
+            <Javascript />
+            <Python />
+          </ScriptDefinition>
+        </ScriptConnectionEstablished>
+        <ConnectionPorts>
+          <string>192.168.1.1:23</string>
+          <string>COM4</string>
+          <string>COM5</string>
+          <string>192.168.1.1:23</string>
+          <string>192.168.1.1:23</string>
+        </ConnectionPorts>
+        <ConnectionTCPPorts>
+          <int>6666</int>
+          <int>6667</int>
+          <int>6668</int>
+          <int>6669</int>
+          <int>6670</int>
+        </ConnectionTCPPorts>
+        <ConnectionTCPEnabled>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+        </ConnectionTCPEnabled>
+        <v4EnableBatteryMonitor>
+          <boolean>true</boolean>
+          <boolean>true</boolean>
+          <boolean>true</boolean>
+          <boolean>true</boolean>
+          <boolean>true</boolean>
+        </v4EnableBatteryMonitor>
+        <v4EnableBatteryMonitorOverride>false</v4EnableBatteryMonitorOverride>
+        <v4BatteryMonitorVoltage>
+          <decimal>7</decimal>
+          <decimal>7</decimal>
+          <decimal>7</decimal>
+          <decimal>7</decimal>
+          <decimal>7</decimal>
+        </v4BatteryMonitorVoltage>
+        <i2cSpeed>
+          <int>100000</int>
+          <int>100000</int>
+          <int>100000</int>
+          <int>100000</int>
+          <int>100000</int>
+        </i2cSpeed>
+        <EZBv5Server>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+          <boolean>false</boolean>
+        </EZBv5Server>
+        <BaudRates>
+          <int>9600</int>
+          <int>57600</int>
+          <int>57600</int>
+          <int>9600</int>
+          <int>9600</int>
+        </BaudRates>
+        <DTREnable>false</DTREnable>
+        <RTSEnable>false</RTSEnable>
+        <BAUD4800>3850</BAUD4800>
+        <BAUD9600>1925</BAUD9600>
+        <BAUD19200>959</BAUD19200>
+        <BAUD38400>477</BAUD38400>
+        <BAUD57600>316</BAUD57600>
+        <BAUD115200>157</BAUD115200>
+        <ConnectionEstablishedScripts />
+        <ConnectionEstablishedScriptsXML />
+      </Connection>
+    </ConfigurationFormV2>
+    <ConfigurationFormV2>
+      <FormType>PluginV1</FormType>
+      <Title>Oculus Quest Robot</Title>
+      <TopLocation>5</TopLocation>
+      <LeftLocation>297</LeftLocation>
+      <Width>235</Width>
+      <Height>429</Height>
+      <WindowState>Normal</WindowState>
+      <GUID>eb59dcf3-9b14-4680-a20a-2dd2ba1b3cfe</GUID>
+      <Desktop>0</Desktop>
+      <PluginV1>
+        <_pluginGUID>030f88f2-507d-463a-b4f6-3a631a600106</_pluginGUID>
+        <STORAGE>
+          <Item>
+            <Key>
+              <string>Camera Name Left</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:string">Camera</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>Camera Name Right</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:string">No Right Camera</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>TCP_CMD_SERVER_PORT</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:decimal">8082</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>SHOW_PROCESSED_VIDEO</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:boolean">false</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>PAUSE_WHEN_MOVING</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:boolean">false</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>TCP_RD_SERVER_PORT</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:decimal">8083</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>Remote desktop Enabled</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:boolean">false</anyType>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>COMMAND_SKIP_CNT</string>
+            </Key>
+            <Value>
+              <anyType xsi:type="xsd:decimal">10</anyType>
+            </Value>
+          </Item>
+        </STORAGE>
+        <SERVOS>
+          <Item>
+            <Key>
+              <string>headset horizontal</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>headset vertical</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>headset roll</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT hand trigger</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT index trigger</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>D7</Port>
+                  <Minimum>28</Minimum>
+                  <Maximum>111</Maximum>
+                  <BoardIndex>1</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT joy x</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>D9</Port>
+                  <Minimum>29</Minimum>
+                  <Maximum>125</Maximum>
+                  <BoardIndex>1</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT joy Y</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT x</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>D9</Port>
+                  <Minimum>51</Minimum>
+                  <Maximum>123</Maximum>
+                  <BoardIndex>1</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT y</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller LEFT z</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT index</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT middle</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT pinky</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT ring</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT thumb</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT x</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT y</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand LEFT z</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT hand trigger</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT index trigger</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT joy x</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>D7</Port>
+                  <Minimum>49</Minimum>
+                  <Maximum>89</Maximum>
+                  <BoardIndex>1</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT joy Y</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT x</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>D22</Port>
+                  <Minimum>40</Minimum>
+                  <Maximum>114</Maximum>
+                  <BoardIndex>2</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT y</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>controller RIGHT z</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT index</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT middle</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT pinky</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT ring</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT thumb</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT x</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT y</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+          <Item>
+            <Key>
+              <string>hand RIGHT z</string>
+            </Key>
+            <Value>
+              <ArrayOfServoDescriptor>
+                <ServoDescriptor>
+                  <Port>NA</Port>
+                  <Minimum>90</Minimum>
+                  <Maximum>90</Maximum>
+                  <BoardIndex>0</BoardIndex>
+                  <Multiplier>1</Multiplier>
+                  <Description>Master</Description>
+                  <Invert>false</Invert>
+                  <Velocity>-1</Velocity>
+                  <Acceleration>-1</Acceleration>
+                  <Speed>-1</Speed>
+                </ServoDescriptor>
+              </ArrayOfServoDescriptor>
+            </Value>
+          </Item>
+        </SERVOS>
+        <SCRIPTS />
+        <_customObjectEncoded />
+        <_customObjectEncodedV2 />
+      </PluginV1>
+    </ConfigurationFormV2>
+  </ConfigurationFormList>
+  <Screenshot>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KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=</Screenshot>
+</ConfigurationV2>
